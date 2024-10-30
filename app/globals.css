@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: #ffffff;
+  background-color: #141414;
+}
+
+.main-heading {
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5.5rem;
+  line-height: 2;
+  text-align: center;
+}
+
+.heading-body {
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1rem;
+  line-height: 2;
+}

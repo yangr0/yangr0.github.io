@@ -7,7 +7,11 @@ body {
   background-color: #141414;
 }
 
-.main-heading {
+.hero-section {
+  border-width: 1px;
+}
+
+.hero-title {
   font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -17,7 +21,7 @@ body {
   text-align: center;
 }
 
-.heading-body {
+.hero-body {
   font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;

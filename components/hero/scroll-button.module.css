@@ -1,0 +1,50 @@
+.scrollButton {
+  position: absolute;
+  bottom: 3%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 2px solid #ffffff;
+  border-radius: 50px;
+  width: 25px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  outline: none;
+  transition: transform 0.3s ease;
+}
+
+.scrollButton:hover {
+  transform: translateX(-50%) scale(1.1);
+}
+
+.dot {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  width: 6px;
+  height: 6px;
+  margin-left: -3px;
+  background-color: #ffffff;
+  border-radius: 100%;
+  animation: bounce 1.5s infinite;
+  box-sizing: border-box;
+}
+
+@keyframes bounce {
+  0% {
+    -webkit-transform: translate(0, 0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    -webkit-transform: translate(0, 16px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}

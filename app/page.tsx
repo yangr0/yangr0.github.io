@@ -1,6 +1,9 @@
+import Head from "next/head";
 import type { Metadata } from "next";
-import Hero from "@/components/hero";
 import type { Viewport } from "next";
+import Nav from "@/components/nav";
+import Hero from "@/components/hero";
+import About from "@/components/about";
 
 export const metadata: Metadata = {
   title: "Raymond Yang | Portfolio",
@@ -15,8 +18,12 @@ export const viewport: Viewport = {
 
 export default function Home() {
   return (
-    <main>
-      <Hero />
-    </main>
+    <>
+      <Nav />
+      <main className="flex flex-col">
+        <Hero />
+        <About />
+      </main>
+    </>
   );
 }

@@ -67,6 +67,7 @@
   margin-right: auto;
   display: flex;
   justify-content: center;
+  item-align: center;
 }
 
 .resume-button {

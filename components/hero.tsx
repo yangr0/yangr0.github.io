@@ -1,6 +1,6 @@
 import "@/components/hero/hero.css"
 import ScrollDownButton from "@/components/hero/scroll-button";
-import ScrollAppear from "@/scroll-appear/scroll-appear";
+import ScrollAppear from "@/components/scroll-appear/scroll-appear";
 
 export default function Hero() {
   return (

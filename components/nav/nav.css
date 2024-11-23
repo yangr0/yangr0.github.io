@@ -50,6 +50,7 @@
   cursor: pointer;
   font-size: .9rem;
   opacity: .6;
+  font-weight: 600;
 }
 
 .nav-center div:hover {

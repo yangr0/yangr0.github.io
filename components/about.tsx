@@ -1,5 +1,5 @@
 import "@/components/about/about.css";
-import ScrollAppear from "@/scroll-appear/scroll-appear";
+import ScrollAppear from "@/components/scroll-appear/scroll-appear";
 
 export default function About() {
   return (

@@ -1,24 +1,27 @@
+"use client";
 import "@/components/nav/nav.css"
 import Image from "next/image";
-import ScrollAppear from "@/scroll-appear/scroll-appear";
+import ScrollAppear from "@/components/scroll-appear/scroll-appear";
 import githubIcon from "@/public/github-white.svg";
 import linkedinIcon from "@/public/linkedin-white.svg";
-
-const linkedinIconStyle = {
-  fill: "white",
-}
+import React from "react";
 
 export default function Nav() {
+  const scrollTo = (id: string) => {
+    const element = document.getElementById(id);
+    element.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <>
       <section className="nav">
         <div className="nav-left">m</div>
         <nav className="nav-center-block">
           <div className="nav-center">
-            <div className="nav-home">~</div>
-            <div className="nav-about">whoami</div>
-            <div className="nav-work">Work</div>
-            <div className="nav-contact">Contact</div>
+            <div className="nav-home" onClick={() => scrollTo("hero")}>~</div>
+            <div className="nav-home" onClick={() => scrollTo("about")}>whoami</div>
+            <div className="nav-home" onClick={() => scrollTo("work")}>work</div>
+            <div className="nav-home" onClick={() => scrollTo("contact")}>contact</div>
           </div>
         </nav>
         <div className="nav-right">

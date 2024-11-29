@@ -6,7 +6,7 @@ export default function Skills() {
     <>
       <section id="skills" className="skills-section">
         <div className="skills-container">
-          <div className="skills-top-block">Full-Stack Engineer</div>
+          <div className="skills-top-block">Full-Stack Developer</div>
           <div className="skills-bottom-block">
             <div className="skills-column-left">
               <div className="skills-column-title">Frontend Developer</div>

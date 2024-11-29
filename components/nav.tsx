@@ -4,6 +4,7 @@ import Image from "next/image";
 import ScrollAppear from "@/components/scroll-appear/scroll-appear";
 import githubIcon from "@/public/github-white.svg";
 import linkedinIcon from "@/public/linkedin-white.svg";
+import logo from "@/public/logo.svg";
 import React from "react";
 
 export default function Nav() {
@@ -15,13 +16,25 @@ export default function Nav() {
   return (
     <>
       <section className="nav">
-        <div className="nav-left">m</div>
+        <div className="nav-left">
+          <a href="https://yangr0.github.io" target="_blank">
+            <div className="nav-logo-icon">
+              <Image
+                src={logo}
+                width={25}
+                height={25}
+                alt="logo_icon"
+              />
+            </div>
+          </a>
+        </div>
         <nav className="nav-center-block">
           <div className="nav-center">
-            <div className="nav-home" onClick={() => scrollTo("hero")}>~</div>
-            <div className="nav-home" onClick={() => scrollTo("about")}>whoami</div>
-            <div className="nav-home" onClick={() => scrollTo("work")}>work</div>
-            <div className="nav-home" onClick={() => scrollTo("contact")}>contact</div>
+            <div onClick={() => scrollTo("hero")}>~</div>
+            <div onClick={() => scrollTo("about")}>whoami</div>
+            <div onClick={() => scrollTo("skills")}>skills</div>
+            <div onClick={() => scrollTo("endorsements")}>endorsements</div>
+            <div onClick={() => scrollTo("contact")}>contact</div>
           </div>
         </nav>
         <div className="nav-right">

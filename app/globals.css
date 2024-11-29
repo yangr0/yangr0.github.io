@@ -9,4 +9,5 @@ body {
   font-weight: 500;
   -webkit-font-smoothing: antialiased;
   scroll-behavior: smooth;
+  font-optical-sizing: auto;
 }

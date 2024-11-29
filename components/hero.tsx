@@ -1,4 +1,4 @@
-import "@/components/hero/hero.css"
+import "@/components/hero/hero.css";
 import ScrollDownButton from "@/components/hero/scroll-button";
 import ScrollAppear from "@/components/scroll-appear/scroll-appear";
 
@@ -19,12 +19,14 @@ export default function Hero() {
               </p>
             </div>
             <div className="resume-block">
-              <div className="resume-button">View my resume</div>
+              <a className="resume-button" href="https://raw.githubusercontent.com/yangr0/resume/refs/heads/main/resume.pdf" target="blank_">
+                View my resume
+              </a>
             </div>
           </ScrollAppear>
         </div>
         <ScrollDownButton targetId="about"/>
       </section>
     </>
-  )
-}
+  );
+};

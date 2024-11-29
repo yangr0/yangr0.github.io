@@ -1,0 +1,62 @@
+.endorsements-section {
+  height: 99vh;
+  display: flex;
+  justify-content: start;
+  padding-right: 10%;
+  padding-left: 10%;
+  margin-top: .4rem;
+  margin-right: .4rem;
+  margin-left: .4rem;
+  border-width: .1rem;
+  border-radius: 1rem;
+  border-color: #262626;
+}
+
+.endorsements-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-top: 12%;
+  width: 100%;
+}
+
+.endorsements-title {
+  font-size: 4rem;
+  line-height: 2;
+  margin-bottom: 1%;
+}
+
+.endorsements-content {
+  font-size: 1.3rem;
+  font-style: italic;
+  opacity: 0.8;
+  line-height: 1.5;
+}
+
+.endorsements-person-block {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+}
+
+.endorsements-person-icon img {
+  border-radius: 50%;
+  filter: grayscale(100%);
+}
+
+.endorsements-person-info-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 2rem;
+  font-size: 1.3rem;
+}
+
+.endorsements-person-name {
+  font-weight: 700;
+}
+
+.endorsements-person-position {
+  font-weight: 300;
+  opacity: 0.8;
+}

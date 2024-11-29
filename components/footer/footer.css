@@ -1,0 +1,17 @@
+.footer-section {
+  border-color: #262626;
+  border-top-width: .1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-content p {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  color: #9f9f9f;
+  text-align: center;
+}
+
+.footer-content a {
+  color: white;
+}

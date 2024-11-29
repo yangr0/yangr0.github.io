@@ -28,7 +28,7 @@ jobs:
   # Build job
   build:
     env:
-      WEB3FORMS_ACCESS_KEY: ${{ secrets.WEB3FORMS_ACCESS_KEY }}
+      NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY: ${{ secrets.WEB3FORMS_ACCESS_KEY }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -81,9 +81,6 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./out
-      - name: Create .env file
-        run: |
-          echo "NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY=$WEB3FORMS_ACCESS_KEY" >> .env
 
   # Deployment job
   deploy:

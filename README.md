@@ -1,3 +1,3 @@
-# Create Next JS Website
+# My Portfolio Website
 
-demonstrate design thinking
+Still working on mobile version and converting html/css

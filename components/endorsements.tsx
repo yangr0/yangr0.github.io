@@ -13,7 +13,7 @@ export default function Endorsements() {
           <ScrollAppear>
             <div className="endorsements-content">
               <p>
-                "I had the privilege of working with Raymond as an intern for our Engineering department from September 2020 to November 2021. Raymond’s work as a Software Engineering Intern was outstanding. Particularly with his contributions to the Atomic Red Team project, product development, C2 payload creation, and successful integration of MythicC2 into our adversary emulation solution.
+                &quot;I had the privilege of working with Raymond as an intern for our Engineering department from September 2020 to November 2021. Raymond’s work as a Software Engineering Intern was outstanding. Particularly with his contributions to the Atomic Red Team project, product development, C2 payload creation, and successful integration of MythicC2 into our adversary emulation solution.
               </p>
               <br />
               <p>
@@ -21,7 +21,7 @@ export default function Endorsements() {
               </p>
               <br />
               <p>
-                Raymond's combination of technical skills, logical reasoning, and soft skills truly set him apart. He is not just a learner but a leader, whose contributions left a lasting impact. Raymond is undoubtedly poised for continued growth and success in any academic or professional setting. I'm 100% confident in his ability to contribute significantly to any organization he joins."
+                Raymond&apos;s combination of technical skills, logical reasoning, and soft skills truly set him apart. He is not just a learner but a leader, whose contributions left a lasting impact. Raymond is undoubtedly poised for continued growth and success in any academic or professional setting. I&apos;m 100% confident in his ability to contribute significantly to any organization he joins.&quot;
               </p>
             </div>
           </ScrollAppear>

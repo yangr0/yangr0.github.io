@@ -11,11 +11,18 @@ import Footer from "@/components/footer";
 
 export const metadata: Metadata = {
   title: "Raymond Yang | Portfolio",
-  author: "Raymond Yang",
+  authors: [
+    {
+      name: "Raymond Yang"
+    }
+  ],
+  creator: "Raymond Yang",
+  description: "Raymond Yang's portfolio",
+  keywords: ["Raymond Yang", "DevOps Engineer", "Software Engineer", "Full Stack Developer", "Next.js", "Terraform", "AWS", "Portfolio", "Kubernetes", "Site Reliability Engineer"],
 };
 
 export const viewport: Viewport = {
-  width: 'device-width',
+  width: "device-width",
   initialScale: 1,
 };
 

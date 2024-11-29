@@ -1,3 +1,6 @@
-# My Portfolio Website
+# Portfolio Website
 
-Still working on mobile version and converting html/css
+### TODO:
+
+- Make website mobile friendly
+- Switch to framer motion

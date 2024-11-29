@@ -12,7 +12,7 @@ export default function Footer() {
             <br />
             Thanks to <a href="https://media.illinois.edu/advertising/hall-steve" target="blank_">Prof. Steven Hall</a> @ UIUC for introducing me to Avenir Next.
             <br />
-            <a href="https://github.com/yangr0/yangr0.github.io/" target="blank_">Source code</a> available on my GitHub.
+            Made with &#x2764;&#xfe0f; by <a href="https://github.com/yangr0" target="blank_">Raymond Yang</a>.
           </p>
         </div>
       </section>

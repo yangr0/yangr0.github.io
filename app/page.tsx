@@ -19,6 +19,7 @@ export const metadata: Metadata = {
   creator: "Raymond Yang",
   description: "Raymond Yang's portfolio",
   keywords: ["Raymond Yang", "DevOps Engineer", "Software Engineer", "Full Stack Developer", "Next.js", "Terraform", "AWS", "Portfolio", "Kubernetes", "Site Reliability Engineer"],
+  charset: "UTF-8",
 };
 
 export const viewport: Viewport = {

@@ -14,7 +14,7 @@ export default function Skills() {
                 <div>Recently Learned</div>
               </div>
               <div className="skills-column-languages">Languages:
-                <div>TypeScript, HTML, CSS, <br/>LaTeX, Markdown, LaTeX</div>
+                <div>TypeScript, HTML, CSS, <br/>LaTeX, Markdown</div>
               </div>
               <div className="skills-column-points">Frameworks:
                 <div>Next.js <br/>React <br/>Tailwind CSS</div>
@@ -26,10 +26,10 @@ export default function Skills() {
                 <div>2+ years</div>
               </div>
               <div className="skills-column-languages">Languages:
-                <div>HCL, Python, Bash, YAML</div>
+                <div>HCL, Python, Bash</div>
               </div>
               <div className="skills-column-points">Dev Tools:
-                <div>Terraform <br/>Kubernetes <br/>Git <br/>Puppet <br/>Docker <br/>AWS Services <br/>GitHub Actions <br/>Elasticsearch</div>
+                <div>Terraform <br/>Kubernetes <br/>Git <br/>Puppet <br/>Docker <br/>AWS Services <br/>GitHub Actions</div>
               </div>
             </div>
             <div className="skills-column-right">
@@ -38,10 +38,10 @@ export default function Skills() {
                 <div>4+ years</div>
               </div>
               <div className="skills-column-languages">Languages:
-                <div>Rust, Python, Bash, SQL, TOML</div>
+                <div>Rust, Python, Bash, SQL</div>
               </div>
               <div className="skills-column-points">Technologies:
-                <div>Actix Web <br/>Flask <br/>Cargo Lambda <br/>Reqwest <br/>Rayon <br/>Pola-rs <br/>Prompt Toolkit <br/>SQLite <br/>MongoDB</div>
+                <div>Actix Web <br/>Flask <br/>Cargo Lambda <br/>SQLite <br/>MongoDB <br/>Elasticsearch</div>
               </div>
             </div>
           </div>

@@ -1,7 +1,6 @@
 "use client";
 
 import "@/components/contact/contact.css";
-import ScrollAppear from "@/components/scroll-appear/scroll-appear";
 
 export default function Contact() {
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
@@ -11,6 +10,7 @@ export default function Contact() {
       email: { value: string };
       message: { value: string };
     };
+    console.log(process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY);
     await fetch("https://api.web3forms.com/submit", {
       method: "POST",
       headers: {

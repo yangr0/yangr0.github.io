@@ -10,11 +10,11 @@ export default function Skills() {
           <div className="skills-bottom-block">
             <div className="skills-column-left">
               <div className="skills-column-title">Frontend Developer</div>
-              <div className="skills-column-experience">Working Experience:
+              <div className="skills-column-experience">Work Experience:
                 <div>Recently Learned</div>
               </div>
               <div className="skills-column-languages">Languages:
-                <div>TypeScript, HTML, CSS, LaTeX</div>
+                <div>TypeScript, HTML, CSS, <br/>LaTeX, Markdown, LaTeX</div>
               </div>
               <div className="skills-column-points">Frameworks:
                 <div>Next.js <br/>React <br/>Tailwind CSS</div>
@@ -22,7 +22,7 @@ export default function Skills() {
             </div>
             <div className="skills-column-middle">
               <div className="skills-column-title">DevOps Engineer</div>
-              <div className="skills-column-experience">Working Experience:
+              <div className="skills-column-experience">Work Experience:
                 <div>2+ years</div>
               </div>
               <div className="skills-column-languages">Languages:

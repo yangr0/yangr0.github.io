@@ -1,9 +1,13 @@
 "use client"
 
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect, useState, useRef, ReactNode } from "react";
 import styles from "@/components/scroll-appear/scroll-appear.module.css";
 
-const ScrollAppear = ({ children }) => {
+interface ScrollAppearProps {
+  children: ReactNode;
+}
+
+const ScrollAppear: React.FC<ScrollAppearProps> = ({ children }) => {
   const [isVisible, setIsVisible] = useState(false);
   const elementRef = useRef(null);
 

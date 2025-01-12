@@ -1,9 +1,13 @@
 "use client"
 
-import React from 'react';
+import React from "react";
 import styles from '@/components/hero/scroll-button.module.css';
 
-const ScrollDownButton = ({ targetId }) => {
+interface ScrollDownButtonProps {
+  targetId: string;
+}
+
+const ScrollDownButton: React.FC<ScrollDownButtonProps> = ({ targetId }) => {
   const scrollToSection = () => {
     const section = document.getElementById(targetId);
     if (section) {

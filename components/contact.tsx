@@ -4,9 +4,14 @@ import "@/components/contact/contact.css";
 import ScrollAppear from "@/components/scroll-appear/scroll-appear";
 
 export default function Contact() {
-  async function handleSubmit(e) {
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    const response = await fetch("https://api.web3forms.com/submit", {
+    const target = e.target as typeof e.target & {
+      name: { value: string };
+      email: { value: string };
+      message: { value: string };
+    };
+    await fetch("https://api.web3forms.com/submit", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -14,15 +19,11 @@ export default function Contact() {
       },
       body: JSON.stringify({
         access_key: process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY,
-        name: e.target.name.value,
-        email: e.target.email.value,
-        message: e.target.message.value,
+        name: target.name.value,
+        email: target.email.value,
+        message: target.message.value,
       }),
     });
-    const result = await response.json();
-    if (result.success) {
-        console.log(result);
-    }
   }
   return (
     <>

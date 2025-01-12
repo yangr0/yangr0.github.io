@@ -9,8 +9,10 @@ import React from "react";
 
 export default function Nav() {
   const scrollTo = (id: string) => {
-    const element = document.getElementById(id);
-    element.scrollIntoView({ behavior: "smooth" });
+    const e = document.getElementById(id);
+    if (e) {
+      e.scrollIntoView({ behavior: "smooth" });
+    }
   };
 
   return (

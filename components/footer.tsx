@@ -6,6 +6,8 @@ export default function Footer() {
       <section className="footer-section">
         <div className="footer-content">
           <p className="footer-content-p">
+            Last updated: DATE_REPLACE (Automated using GitHub Actions)
+            <br />
             Built with Next.js, Typscript, HTML, CSS. Hosted on GitHub Pages.
             <br />
             Inspired by <a href="https://www.sebastianpetravic.com" target="blank_">Sebastian Petravic</a>, <a href="https://mattfarley.ca" target="blank_">Matt Farley</a>, <a href="https://www.rammaheshwari.com" target="blank_">Ram Maheshwari</a>.

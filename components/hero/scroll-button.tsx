@@ -12,11 +12,9 @@ const ScrollDownButton = ({ targetId }) => {
   };
 
   return (
-    <div className={styles.scrollButtonContainer}>
-      <button onClick={scrollToSection} className={styles.scrollButton}>
-        <span className={styles.dot}></span>
-      </button>
-    </div>
+    <button onClick={scrollToSection} className={styles.scrollButton}>
+      <span className={styles.dot}></span>
+    </button>
   );
 };
 

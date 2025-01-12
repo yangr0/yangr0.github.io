@@ -1,6 +1,11 @@
+.scrollButtonContainer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
 .scrollButton {
   opacity: .8;
-  position: absolute;
   bottom: 3%;
   left: 50%;
   transform: translateX(-50%);
@@ -48,5 +53,14 @@
   }
   100% {
     opacity: 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .scrollButtonContainer {
+    margin-top: 2.5rem;
+  }
+  .scrollButton {
+    transform: translateX(0);
   }
 }

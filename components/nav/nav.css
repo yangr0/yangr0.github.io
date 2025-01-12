@@ -55,7 +55,7 @@
   justify-content: space-around;
   align-items: center;
   column-gap: 1rem;
-  width: auto; 
+  width: auto;
 }
 
 .nav-center div {
@@ -92,4 +92,19 @@
 .nav-right a div:hover {
   opacity: 1;
   transition: opacity 0.2s ease;
+}
+
+@media (max-width: 480px) {
+  .nav {
+    justify-content: center;
+  }
+  .nav-left {
+    display: none;
+  }
+  .nav-center-block {
+    scale: .8;
+  }
+  .nav-right {
+    display: none;
+  }
 }

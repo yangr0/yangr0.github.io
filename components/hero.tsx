@@ -23,9 +23,9 @@ export default function Hero() {
                 View my resume
               </a>
             </div>
+            <ScrollDownButton targetId="about"/>
           </ScrollAppear>
         </div>
-        <ScrollDownButton targetId="about"/>
       </section>
     </>
   );

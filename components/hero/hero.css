@@ -15,7 +15,6 @@
 }
 
 .hero-container {
-  position: static;
   margin-top: -5%;
   margin-left: auto;
   margin-right: auto;
@@ -23,10 +22,10 @@
   flex-direction: column;
   justify-content: center;
   width: 100%;
+  height: 100%;
 }
 
 .hero-title-block {
-  display: flex;
   justify-content: center;
   width: 100%;
   margin-bottom: 3%
@@ -90,14 +89,22 @@
 }
 
 @media only screen and (max-width: 480px) {
+  .hero-section {
+    height: 100%;
+  }
+  .hero-container {
+    margin-top: 20%;
+    padding-bottom: 1rem;
+  }
   .hero-title-block {
-    padding-bottom: 5%;
+    padding-bottom: 1rem;
   }
   .hero-title {
-    font-size: 3rem;
+    font-size: 2.7rem;
   }
   .hero-body-block {
-    padding-bottom: 8%;
+    padding-bottom: 1rem;
+
   }
   .hero-body {
     font-size: 1rem;
@@ -106,7 +113,7 @@
     padding-left: 0;
     padding-right: 0;
   }
-  .hero-container {
-    margin-top: -20%;
+  .resume-button {
+    scale: .9;
   }
 }

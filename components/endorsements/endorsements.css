@@ -21,13 +21,13 @@
 }
 
 .endorsements-title {
-  font-size: 4rem;
+  font-size: 3rem;
   line-height: 2;
   margin-bottom: 1%;
 }
 
 .endorsements-content {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-style: italic;
   opacity: 0.8;
   line-height: 1.5;
@@ -49,7 +49,7 @@
   flex-direction: column;
   justify-content: space-around;
   margin-left: 2rem;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 .endorsements-person-name {
@@ -59,4 +59,25 @@
 .endorsements-person-position {
   font-weight: 300;
   opacity: 0.8;
+}
+
+@media only screen and (max-width: 480px) {
+  .endorsements-section {
+    height: 100%;
+  }
+  .endorsements-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .endorsements-content {
+    font-size: 1rem;
+  }
+  .endorsements-person-info-block {
+    margin-left: 1rem;
+    font-size: .8rem;
+  }
+  .endorsements-person-block {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
 }

@@ -8,6 +8,7 @@
   margin-top: .4rem;
   margin-right: .4rem;
   margin-left: .4rem;
+  margin-bottom: 1rem;
 }
 
 .contact-container {
@@ -123,4 +124,28 @@
 
 .form-submit-button:hover {
   background-color: #151515;
+}
+
+@media only screen and (max-width: 480px) {
+  .contact-section {
+    height: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .contact-container {
+    width: 100%;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  .form-title {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+  .form-bottom-block {
+    margin-top: 2rem;
+  }
+  .form-submit-block {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
 }

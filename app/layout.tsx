@@ -21,6 +21,8 @@ export const viewport: Viewport = {
   initialScale: 1,
 };
 
+let a = []
+
 const avenirNext = localFont({
   src: "./fonts/AvenirNextLTPro-Regular.otf",
   display: "swap",

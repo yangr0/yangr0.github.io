@@ -8,7 +8,6 @@ import Skills from "@/components/skills";
 import Endorsements from "@/components/endorsements";
 import Contact from "@/components/contact";
 import Footer from "@/components/footer";
-import Mobile from "@/components/mobile";
 
 export default function Page() {
   return (

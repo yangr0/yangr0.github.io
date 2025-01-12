@@ -148,4 +148,10 @@
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
+  .popup {
+    height: 25rem;
+    width: 75%;
+    left: 12.5%;
+    font-size: 1rem;
+  }
 }

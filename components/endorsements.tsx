@@ -1,16 +1,19 @@
 import "@/components/endorsements/endorsements.css";
-import ScrollAppear from "@/components/scroll-appear/scroll-appear";
+import { motion } from "framer-motion";
 import Image from "next/image";
 
 export default function Endorsements() {
   return (
     <>
       <section id="endorsements" className="endorsements-section">
-        <div className="endorsements-container">
-          <ScrollAppear>
+        <motion.div
+          initial={{ opacity: 0, y: 100 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1.5, ease: "easeInOut" }}
+          className="endorsements-container">
             <div className="endorsements-title">Working with me</div>
-          </ScrollAppear>
-          <ScrollAppear>
+
             <div className="endorsements-content">
               <p>
                 &quot;I had the privilege of working with Raymond as an intern for our Engineering department from September 2020 to November 2021. Raymond’s work as a Software Engineering Intern was outstanding. Particularly with his contributions to the Atomic Red Team project, product development, C2 payload creation, and successful integration of MythicC2 into our adversary emulation solution.
@@ -24,8 +27,6 @@ export default function Endorsements() {
                 Raymond&apos;s combination of technical skills, logical reasoning, and soft skills truly set him apart. He is not just a learner but a leader, whose contributions left a lasting impact. Raymond is undoubtedly poised for continued growth and success in any academic or professional setting. I&apos;m 100% confident in his ability to contribute significantly to any organization he joins.&quot;
               </p>
             </div>
-          </ScrollAppear>
-          <ScrollAppear>
             <div className="endorsements-person-block">
               <div className="endorsements-person-icon">
                 <Image
@@ -40,8 +41,7 @@ export default function Endorsements() {
                 <div className="endorsements-person-position">Director of Offensive Operations @ Blackbot Security, Inc.</div>
               </div>
             </div>
-          </ScrollAppear>
-        </div>
+        </motion.div>
       </section>
     </>
   )

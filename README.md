@@ -4,4 +4,4 @@
 
 - Make website mobile friendly (done)
 - Contact form confirmation effect (done)
-- Switch to framer motion
+- Switch to framer motion (done)

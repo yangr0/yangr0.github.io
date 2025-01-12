@@ -1,5 +1,4 @@
 import "@/components/skills/skills.css";
-import ScrollAppear from "@/components/scroll-appear/scroll-appear";
 
 export default function Skills() {
   return (

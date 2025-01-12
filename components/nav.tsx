@@ -1,7 +1,6 @@
 "use client";
 import "@/components/nav/nav.css"
 import Image from "next/image";
-import ScrollAppear from "@/components/scroll-appear/scroll-appear";
 import githubIcon from "@/public/github-white.svg";
 import linkedinIcon from "@/public/linkedin-white.svg";
 import logo from "@/public/logo.svg";

@@ -3,5 +3,5 @@
 ### TODO:
 
 - Make website mobile friendly (done)
-- Contact form confirmation effect
+- Contact form confirmation effect (done)
 - Switch to framer motion

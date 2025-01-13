@@ -49,7 +49,7 @@ export default function Nav() {
               />
             </div>
           </a>
-          <a href="https://www.linkedin.com/in/raymond-y-3061841b7" target="_blank">
+          <a href="https://linkedin.com/in/yangr0" target="_blank">
             <div className="nav-linkedin">
               <Image
                 src={linkedinIcon}

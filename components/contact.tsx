@@ -29,12 +29,9 @@ export default function Contact() {
       }),
     })
     .then(resp => resp.json().then(data => {
-      console.log(data);
-      console.log(showConfirmation);
       setName(target.name.value);
       setSuccess(data.success);
       setShowConfirmation(true);
-      console.log(showConfirmation);
     }))
     .catch(err => {
       setSuccess(false);

@@ -23,13 +23,21 @@ export default function About() {
           </div>
             <div className="about-right">
               <div className="timeline-block">
+                  <div className="timeline-title">Security Engineer @ CVS Health
+                    <div className="timeline-description">Full-Time</div>
+                    <div className="timeline-description">Feb. 2025 — Present</div>
+                  </div>
+                  <div className="timeline-title">DevOps Engineer @ Pling Inc.
+                    <div className="timeline-description">Part-Time (Internship)</div>
+                    <div className="timeline-description">Jan. 2025 — Present</div>
+                  </div>
                   <div className="timeline-title">DevOps Engineer @ Mezzanotte Labs
                     <div className="timeline-description">Part-Time</div>
                     <div className="timeline-description">March 2022 — Present</div>
                   </div>
                   <div className="timeline-title">Software Engineer @ Blackbot Security
                     <div className="timeline-description">Part-Time (Internship)</div>
-                    <div className="timeline-description">September 2020 — November 2021</div>
+                    <div className="timeline-description">Sept. 2020 — November 2021</div>
                   </div>
               </div>
           </div>

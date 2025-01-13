@@ -61,8 +61,9 @@ export default function Contact() {
           initial={{ opacity: 0, scale: 0 }}
           animate={{ opacity: 1, scale: 1 }}
           className="flex flex-col gap-y-6 bottom-[25vh] top-[25vh] left-[25vw] right-[25vw] fixed h-1/2 w-1/2 border-2 rounded-xl justify-center items-center text-xl bg-black border-stone-300 p-5 text-center popup">
+          <h1>Hi {name}!</h1>
           <h1>I have received your message!</h1>
-          <h1>Thank you for your interest {name}</h1>
+          <h1>Thank you for your interest</h1>
           <h1 className="mb-4">I will get back to you as soon as I see your message</h1>
           <button className="absolute bottom-[10%] border-[.1rem] border-[#262626] rounded-full px-10 py-2 font-semibold hover:bg-[#151515]" onClick={() => setShowConfirmation(false)}>Close</button>
         </motion.div>

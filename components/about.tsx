@@ -25,10 +25,6 @@ export default function About() {
           </div>
             <div className="about-right">
               <div className="timeline-block">
-                  <div className="timeline-title">Security Engineer @ CVS Health
-                    <div className="timeline-description">Full-Time</div>
-                    <div className="timeline-description">Feb. 2025 — Present</div>
-                  </div>
                   <div className="timeline-title">DevOps Engineer @ Pling Inc.
                     <div className="timeline-description">Part-Time (Internship)</div>
                     <div className="timeline-description">Jan. 2025 — Present</div>

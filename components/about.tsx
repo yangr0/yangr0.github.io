@@ -26,7 +26,7 @@ export default function About() {
             <div className="about-right">
               <div className="timeline-block">
                   <div className="timeline-title">DevOps Engineer @ Pling Inc.
-                    <div className="timeline-description">Part-Time (Internship)</div>
+                    <div className="timeline-description">Full-Time (Internship)</div>
                     <div className="timeline-description">Jan. 2025 — Present</div>
                   </div>
                   <div className="timeline-title">DevOps Engineer @ Mezzanotte Labs

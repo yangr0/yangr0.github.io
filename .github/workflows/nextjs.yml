@@ -76,7 +76,7 @@ jobs:
       - name: Create environment file
         run: echo "NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY=${{ secrets.WEB3FORMS_ACCESS_KEY }}" > .env
       - name: Replace date in file
-        run: sed -i -e 's@DATE_REPLACE@'"$(date +'%B, %d %Y')"'@g' components/footer.tsx
+        run: sed -i -e 's@DATE_REPLACE@'"$(date +'%d %b %Y')"'@g' components/footer.tsx
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
       - name: Upload artifact

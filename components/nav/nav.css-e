@@ -94,7 +94,7 @@
   transition: opacity 0.2s ease;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 480px) {
   .nav {
     justify-content: center;
   }

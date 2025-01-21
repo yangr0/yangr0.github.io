@@ -19,7 +19,7 @@ export default function About() {
                 <div className="about-body">
                   Freshman at University of Illinois Urbana-Champaign (UIUC) with over four years of real-world experience working in tech. I’ve led cloud operations, developed automation tools, and created CI/CD workflows, all while improving productivity and preventing security vulnerabilities. I’m passionate about building scalable systems, leveraging tools like Kubernetes, Terraform, and AWS, and eager to bring my problem-solving skills to new challenges.
                   <br />
-                  Outside of work, I enjoy playing video games, playing pick-up soccer (football), skateboarding, learning (human) languages and about different cultures, and tinkering with my computer.
+                  Outside of work, I enjoy listening to music, playing video games, playing pick-up soccer (football), skateboarding, learning (human) languages and about different cultures, and tinkering with my computer.
                 </div>
               </div>
           </div>

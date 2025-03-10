@@ -29,7 +29,7 @@ export default function About() {
                     <div className="timeline-description">Full-Time (Contract)</div>
                     <div className="timeline-description">March 2025 — Present</div>
                   </div>
-                  <div className="timeline-title">Contract Employee @ Colossus Technology Group
+                  <div className="timeline-title">Contract Employee @ Colossus Technologies Group
                     <div className="timeline-description">Contract</div>
                     <div className="timeline-description">March 2025 — Present</div>
                   </div>

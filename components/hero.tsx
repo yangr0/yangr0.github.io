@@ -17,9 +17,7 @@ export default function Hero() {
           </div>
           <div className="hero-body-block">
             <p className="hero-body">
-              Passionate about optimizing infrastructure and building highly scalable
-              systems. I am always seeking to expand my skillset and innovate through
-              continuous learning and hands-on experience.
+              Passionate about designing and implementing scalable, cost-effective, and secure infrastructure solutions for high-volume environments, with a proven track record in threat detection, optimizing systems and cloud technologies.
             </p>
           </div>
           <div className="resume-block">

@@ -80,7 +80,7 @@
   font-style: normal;
   font-size: 1.2rem;
   line-height: 2rem;
-  text-wrap: nowrap;
+  text-wrap: balance;
 }
 
 .timeline-description {

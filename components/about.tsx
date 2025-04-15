@@ -17,7 +17,11 @@ export default function About() {
               </div>
               <div className="about-body-block">
                 <div className="about-body">
-                  Freshman at UIUC am incredibly lucky to have four years of real-world experience in tech, working across startups and enterprise environments. I've had the opportunity to have done a bit of everything—building out cloud infrastructure, automating workflows, scaling internal systems, and building security software. Right now, I’m on a high-level security team at CVS Health, where we’re building a Threat Detection Engine that ingests and analyzes over 100TB of logs per day to keep internal systems secure. It's been an amazing journey so far—I've had the chance to work on projects I never imagined I'd be part of, gain a deeper understanding of real-world engineering challenges, and meet some truly talented and inspiring people along the way.
+                  Freshman at UIUC from a rural town in Illinois with over four years of real-world experience in tech, working across both startups and Fortune 100. I've been incredibly lucky to have done a wide range of work—building cloud infrastructure, automating workflows, scaling systems, and building security software. 
+                  <br />
+                  Right now, I’m on a senior-level security team at CVS Health, where we’re building a Threat Detection Engine that ingests and analyzes over 100TB of logs per day to defend internal systems against attacks. 
+                  <br />
+                  I'm very fortunate to have had these opportunities so early on in life. It's given me the chance to work on projects I never imagined I'd be part of, learn how real-world systems operate, and meet some truly generous and inspiring people along the way.
                   <br />
                   <br />
                   Outside of work, I enjoy listening to music, playing video games, playing pick-up soccer, skateboarding, learning languages, and tinkering with my computer.

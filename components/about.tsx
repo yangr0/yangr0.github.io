@@ -30,7 +30,7 @@ export default function About() {
           </div>
             <div className="about-right">
               <div className="timeline-block">
-                  <div className="timeline-title">Staff Security Enginer @ CVS Health
+                  <div className="timeline-title">Staff Security Engineer @ CVS Health
                     <div className="timeline-description">Full-Time (Contract)</div>
                     <div className="timeline-description">March 2025 — Present</div>
                   </div>

@@ -13,10 +13,10 @@ export default function Skills() {
                 <div>Recently Learned</div>
               </div>
               <div className="skills-column-languages">Languages:
-                <div>TypeScript, HTML, CSS, <br/>LaTeX, Markdown</div>
+                <div>TypeScript, HTML, CSS</div>
               </div>
               <div className="skills-column-points">Frameworks:
-                <div>React <br/>Next.js <br/>Figma <br/>Expo <br/></div>
+                <div>React Native <br/>Next.js <br/>Figma <br/>Expo <br/></div>
               </div>
             </div>
             <div className="skills-column-middle">
@@ -37,7 +37,7 @@ export default function Skills() {
                 <div>4+ years</div>
               </div>
               <div className="skills-column-languages">Languages:
-                <div>Rust, Python, Bash, SQL, Regex</div>
+                <div>Rust, Python, SQL</div>
               </div>
               <div className="skills-column-points">Technologies:
                 <div>Actix Web <br/>Flask <br/>Cargo Lambda <br/>Supabase <br/>MongoDB <br/>Elasticsearch</div>

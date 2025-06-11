@@ -17,7 +17,7 @@ export default function Hero() {
           </div>
           <div className="hero-body-block">
             <p className="hero-body">
-              Building everything from secure cloud infrastructure to high-scale, full-stack applications. Specializing in security operations, system design, and cost optimization.
+              Building and defending systems at petabyte scale, from secure cloud infrastructure to high-performance, full-stack applications.
             </p>
           </div>
           <div className="resume-block">

@@ -30,7 +30,7 @@ export default function Endorsements() {
             <div className="endorsements-person-block">
               <div className="endorsements-person-icon">
                 <Image
-                  src="https://media.licdn.com/dms/image/v2/D5603AQHssyJTxgY8zA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1725685622284?e=1750291200&v=beta&t=4FqAtAS-uNL0mvMtnOk8lRZgxaK3vDCkxqnPw2W_KIU"
+                  src="https://media.licdn.com/dms/image/v2/D5603AQHssyJTxgY8zA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1725685622284?e=1755734400&v=beta&t=NddsSXZuKmdNp3AQAzwKpK0MmvFu7Ucai5bHOXRf3A8"
                   width={60}
                   height={60}
                   alt="daniel_icon"

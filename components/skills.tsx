@@ -28,7 +28,7 @@ export default function Skills() {
                 <div>HCL, Python, Bash</div>
               </div>
               <div className="skills-column-points">Dev Tools:
-                <div>Terraform <br/>Kubernetes <br/>AWS <br/>Git <br/>Puppet <br/>Docker <br/>GitHub Actions</div>
+                <div>Terraform <br/>Kubernetes <br/>AWS <br/>Karpenter <br/>Git <br/>Puppet <br/>Docker <br/>GitHub Actions</div>
               </div>
             </div>
             <div className="skills-column-right">

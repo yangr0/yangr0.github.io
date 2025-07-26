@@ -8,7 +8,9 @@ export default function Footer() {
           <p className="footer-content-p">
             Last updated: DATE_REPLACE (Automated using <a href="https://github.com/features/actions" target="blank_">GitHub Actions</a>)
             <br />
-            Built with <a href="https://nextjs.org/" target="blank_">Next.js</a>, <a href="https://www.typescriptlang.org/" target="blank_">Typscript</a>, HTML, CSS. 
+            Built with <a href="https://nextjs.org/" target="blank_">Next.js</a>, <a href="https://www.typescriptlang.org/" target="blank_">Typescript</a>, HTML, CSS. 
+            <br />
+            Hosted on <a href="https://github.com/yangr0/yangr0.github.io" target="blank_">GitHub Pages</a>
             <br />
             Inspired by <a href="https://www.sebastianpetravic.com" target="blank_">Sebastian Petravic</a>, <a href="https://mattfarley.ca" target="blank_">Matt Farley</a>, <a href="https://www.rammaheshwari.com" target="blank_">Ram Maheshwari</a>.
             <br />

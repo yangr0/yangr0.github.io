@@ -43,10 +43,6 @@ export default function About() {
                     <div className="timeline-description">Part-Time</div>
                     <div className="timeline-description">March 2022 — Present</div>
                   </div>
-                  <div className="timeline-title">DevOps Engineer Intern @ Pling Inc.
-                    <div className="timeline-description">Full-Time</div>
-                    <div className="timeline-description">Jan. 2025 — Feb. 2025</div>
-                  </div>
                   <div className="timeline-title">Software Engineer Intern @ Blackbot Security
                     <div className="timeline-description">Part-Time</div>
                     <div className="timeline-description">Sept. 2020 — November 2021</div>

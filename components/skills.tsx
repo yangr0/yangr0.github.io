@@ -10,7 +10,7 @@ export default function Skills() {
             <div className="skills-column-left">
               <div className="skills-column-title">Frontend Developer</div>
               <div className="skills-column-experience">Work Experience:
-                <div>Recently Learned</div>
+                <div>1+ years</div>
               </div>
               <div className="skills-column-languages">Languages:
                 <div>TypeScript, HTML, CSS</div>
@@ -22,7 +22,7 @@ export default function Skills() {
             <div className="skills-column-middle">
               <div className="skills-column-title">DevOps Engineer</div>
               <div className="skills-column-experience">Work Experience:
-                <div>2+ years</div>
+                <div>3+ years</div>
               </div>
               <div className="skills-column-languages">Languages:
                 <div>HCL, Python, Bash</div>
@@ -34,7 +34,7 @@ export default function Skills() {
             <div className="skills-column-right">
               <div className="skills-column-title">Backend Developer</div>
               <div className="skills-column-experience">Work Experience:
-                <div>4+ years</div>
+                <div>5+ years</div>
               </div>
               <div className="skills-column-languages">Languages:
                 <div>Rust, Python, SQL</div>

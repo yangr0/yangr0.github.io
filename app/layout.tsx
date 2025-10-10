@@ -5,15 +5,15 @@ import { Poppins } from "next/font/google";
 import type { Metadata, Viewport } from "next";
 
 export const metadata: Metadata = {
-  title: "Raymond Yang | Full-Stack Developer",
+  title: "Raymond Yang - Full-Stack + Security",
   authors: [
     {
       name: "Raymond Yang"
     }
   ],
   creator: "Raymond Yang",
-  description: "Raymond Yang - DevOps Engineer, Software Engineer, Frontend Developer",
-  keywords: ["Raymond Yang", "DevOps Engineer", "Software Engineer", "Full Stack Developer", "Next.js", "Terraform", "AWS", "Portfolio", "Kubernetes", "Site Reliability Engineer"],
+  description: "Raymond Yang | DevOps Engineer, Security Engineer, Full-Stack Developer",
+  keywords: ["Raymond Yang", "DevOps", "Infra", "Full Stack", "Rust", "Terraform", "AWS", "Backend", "Kubernetes", "Security"],
 };
 
 export const viewport: Viewport = {

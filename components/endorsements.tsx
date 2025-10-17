@@ -30,10 +30,10 @@ export default function Endorsements() {
             <div className="endorsements-person-block">
               <div className="endorsements-person-icon">
                 <Image
-                  src="https://media.licdn.com/dms/image/v2/D5603AQEAeJVrp0UE-A/profile-displayphoto-crop_800_800/B56Zj5VrzxHkAI-/0/1756529869189?e=1760572800&v=beta&t=8qgpeDAahWKzjS7x3rENYl9JOOXDt1pPRM0UPvJVD2c"
+                  src="/daniel_acevedo.jpg"
                   width={60}
                   height={60}
-                  alt="daniel_icon"
+                  alt="daniel_avevedo_icon"
                 />
               </div>
               <div className="endorsements-person-info-block">

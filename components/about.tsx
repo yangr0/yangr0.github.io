@@ -17,11 +17,11 @@ export default function About() {
               </div>
               <div className="about-body-block">
                 <div className="about-body">
-                  Sophomore at UIUC from a rural town in Illinois with over five years of real-world experience in tech, working across both startups and Fortune 100. I've been incredibly lucky to have done a wide range of work—building cloud infrastructure, automating workflows, scaling systems, and building security software. 
+                  Sophomore at UIUC from a rural town in Illinois with over five years of real-world experience in tech, working across both startups and Fortune 100. I&apos;ve been incredibly lucky to have done a wide range of work—building cloud infrastructure, automating workflows, scaling systems, and building security software. 
                   <br />
                   At my last role, I’m on a senior-level security team at CVS Health, where we were building a Threat Detection Engine that ingests and analyzes over 100TB of logs per day to defend internal systems against attacks. 
                   <br />
-                  I'm very fortunate to have had these opportunities so early on in life. It's given me the chance to work on projects I never imagined I'd be part of, learn how real-world systems operate, and meet some truly generous and inspiring people along the way.
+                  I&apos;m very fortunate to have had these opportunities so early on in life. It&apos;s given me the chance to work on projects I never imagined I&apos;d be part of, learn how real-world systems operate, and meet some truly generous and inspiring people along the way.
                   <br />
                   <br />
                   Outside of work, I enjoy listening to music, playing video games, playing pick-up soccer, skateboarding, learning languages, and tinkering with my computer.

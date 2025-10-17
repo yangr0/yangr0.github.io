@@ -15,7 +15,7 @@ export default function Contact() {
       email: { value: string };
       message: { value: string };
     };
-    const response = await fetch("https://api.web3forms.com/submit", {
+    await fetch("https://api.web3forms.com/submit", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -33,9 +33,9 @@ export default function Contact() {
       setSuccess(data.success);
       setShowConfirmation(true);
     }))
-    .catch(err => {
+    .catch(() => {
       setSuccess(false);
-      setShowConfirmation(true);
+      setShowConfirmation(false);
     })
   }
   return (

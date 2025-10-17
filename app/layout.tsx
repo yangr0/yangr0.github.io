@@ -1,5 +1,4 @@
 import "@/app/globals.css";
-import { userAgent } from "next/server";
 import localFont from "next/font/local";
 import { Poppins } from "next/font/google";
 import type { Metadata, Viewport } from "next";
@@ -21,8 +20,6 @@ export const viewport: Viewport = {
   initialScale: 1,
 };
 
-let a = []
-
 const avenirNext = localFont({
   src: "./fonts/AvenirNextLTPro-Regular.otf",
   display: "swap",
@@ -40,7 +37,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={avenirNext.className + " " + poppins.className}>
       <body>{children}</body>
     </html>
   );

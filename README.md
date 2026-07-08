@@ -1,3 +1,3 @@
 # Portfolio Website
 
-https://yangr.xyz
+https://y4ng.dev

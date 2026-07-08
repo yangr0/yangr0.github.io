@@ -16,7 +16,7 @@ export default function Skills() {
                 <div>TypeScript, HTML, CSS</div>
               </div>
               <div className="skills-column-points">Frameworks:
-                <div>React Native <br/>Next.js <br/>Figma <br/>Expo <br/></div>
+                <div>React Native <br />Next.js <br />Figma <br />Expo <br /></div>
               </div>
             </div>
             <div className="skills-column-middle">
@@ -28,7 +28,7 @@ export default function Skills() {
                 <div>HCL, Python, Bash</div>
               </div>
               <div className="skills-column-points">Dev Tools:
-                <div>Terraform <br/>Kubernetes <br/>AWS <br/>Karpenter <br/>Git <br/>Puppet <br/>Docker <br/>GitHub Actions</div>
+                <div>Terraform <br />Kubernetes <br />AWS <br />Karpenter <br />Git <br />Puppet <br />Docker <br />GitHub Actions</div>
               </div>
             </div>
             <div className="skills-column-right">
@@ -40,7 +40,7 @@ export default function Skills() {
                 <div>Rust, Python, SQL</div>
               </div>
               <div className="skills-column-points">Technologies:
-                <div>Actix Web <br/>Flask <br/>Cargo Lambda <br/>Supabase <br/>MongoDB <br/>Elasticsearch</div>
+                <div>Actix Web <br />Flask <br />Cargo Lambda <br />Supabase <br />MongoDB <br />Elasticsearch</div>
               </div>
             </div>
           </div>
